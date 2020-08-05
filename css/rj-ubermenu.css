@@ -1,0 +1,122 @@
+
+.storefront-primary-navigation {
+    position: relative;
+}
+
+#site-navigation {
+    position: relative;
+}
+
+.ubermenu-has-submenu-mega .ubermenu-submenu.ubermenu-submenu-type-mega {
+    left: 50%!important;
+    transform: translateX(-50%);
+    width: 800px;
+    max-width: 90%;
+}
+
+@media screen and (min-width: 768px) {
+    .woocommerce-active .site-header .main-navigation {
+        float: right!important ;
+        margin-left: 0!important;
+        margin-right: 0!important;
+        width: 100%!important;
+    }
+}
+.ubermenu-skin-minimal .ubermenu-submenu.ubermenu-submenu-drop {
+    border: none;
+}
+.ubermenu-submenu {
+    border-top: 5px solid #f58220!important;
+    border-left: 0!important;
+    border-right: 0!important;
+}
+.ubermenu-submenu a {
+    font-size: 13px!important;
+}
+.main-navigation .ubermenu-active ul.ubermenu-submenu, 
+.ubermenu-active .ubermenu-submenu {
+    margin-top: -2px!important;
+}
+
+/* Hover Effects for UberMenu */
+.main-navigation .ubermenu-active ul.ubermenu-submenu li a {
+    /*overflow: hidden!important;*/
+}
+.main-navigation .ubermenu-active ul.ubermenu-submenu a img {
+    /*transition: .2s ease-in-out;*/
+}
+.main-navigation .ubermenu-active ul.ubermenu-submenu a img {
+/*     filter: saturate(.5); */
+}
+.main-navigation .ubermenu-active ul.ubermenu-submenu:hover a img {
+/*     filter: saturate(.3); */
+      /*filter: grayscale(.5);*/
+}
+
+.main-navigation ul.nav-menu ul a:hover {
+    background-color: initial!important;
+}
+
+/* Ubermenu regular submenu hover background color */
+/*.ubermenu-skin-minimal .ubermenu-submenu .ubermenu-target:hover {
+    background-color: #f58220!important;
+    color: white!important;
+}*/
+.ubermenu-skin-minimal .ubermenu-has-submenu-flyout .ubermenu-target:hover {
+    background-color: #f58220!important;
+    color: white!important;
+}
+
+.ubermenu .ubermenu-target-with-image>.ubermenu-target-text {
+    background-color: #ef9345;
+    line-height: 2.6;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+}
+
+.ubermenu .ubermenu-target-with-image>.ubermenu-target-text {
+    position: absolute;
+    bottom: 0;
+    background-color: #ef9345;
+    right: 0;
+    left: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    line-height: 2.8;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+}
+
+.main-navigation .ubermenu .ubermenu-target-with-image span.ubermenu-target-text {
+    text-align: center;
+    background-color: #f58221;
+    color: white;
+    line-height: 2.4;
+    letter-spacing: 1px;
+    font-size: 1.4rem;
+    left: 12px;
+    right: 12px;
+    bottom: 1px;
+    transition: .2s ease-in-out;
+}
+.main-navigation .ubermenu-has-submenu-mega ul.ubermenu-submenu li:hover span.ubermenu-target-text {
+/*     filter: saturate(.9); */
+  /*filter: grayscale(0);*/
+  background-color: #dc6907;
+}
+.ubermenu.ubermenu-disable-submenu-scroll .ubermenu-active>.ubermenu-submenu.ubermenu-submenu-type-mega {
+    padding-bottom: 12px;
+}
+@media screen and (min-width: 768px) {
+    .main-navigation ul.nav-menu .ubermenu-has-submenu-mega ul li a {
+        padding: 12px 12px 24px 12px!important;
+    }
+}
+.ubermenu .ubermenu-item-layout-image_above>.ubermenu-image {
+    margin-bottom: 0;
+}
